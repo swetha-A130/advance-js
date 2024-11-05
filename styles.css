@@ -1,0 +1,79 @@
+/* Basic reset for margin and padding */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    
+    width: 30%; /* Each input takes up 30% of the available space */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%; /* Button takes up full width */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #8687a6;
+    color: rgb(6, 1, 1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+
+/* Employee list styling */
+#employeeList {
+    margin-top: 20px;
+}
+
+.employee {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.employee button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.employee button:hover {
+    background-color: darkred;
+}
+
+.success { color: green; }
+        .error { color: red; }
+        .employee { margin: 10px 0; }
